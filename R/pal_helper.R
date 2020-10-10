@@ -1,3 +1,4 @@
+#' @export
 dd_cols <- function(...) {
   cols <- c(...)
 
