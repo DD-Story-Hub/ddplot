@@ -5,7 +5,7 @@ Version: 0.0.1
 Authors@R: person("Steven", "Yeo", email = "shihjyun.yeo@gmail.com",
                   role = c("aut", "cre"))
 Description: Making ggplot2 graphics in DD Story Hub style. 
-              In addition to the theme style,it also contains the color style.
+              In addition to the theme style,ddplot also contains the color style.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -13,8 +13,8 @@ RoxygenNote: 7.1.1
 Imports: 
     ggplot2,
     grid,
-    png,
-    ggpubr,
-    grDevices
+    grDevices,
+    ggplotify,
+    gtable
 Depends: 
     R (>= 2.10)
