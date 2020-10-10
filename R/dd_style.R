@@ -53,7 +53,7 @@ dd_style <- function() {
     #grid lines
     panel.grid.minor = ggplot2::element_blank(),
     panel.grid.major.y = ggplot2::element_line(color = "#e0dbd9"),
-    panel.grid.major.y = ggplot2::element_line(color = "#e0dbd9"),
+    panel.grid.major.x = ggplot2::element_line(color = "#e0dbd9"),
 
     #blank background
     panel.background = ggplot2::element_blank(),
