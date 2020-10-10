@@ -16,8 +16,13 @@ finalise_dd_plot <-
     }
     # combine plot & logo
     plot_gtable <- ggplot2::ggplotGrob(plot)
+    # adjust logo's position
     logo_t <- max(plot_gtable$layout$t) + 1
     logo_l <- max(plot_gtable$layout$l)
+    # adjust title, subtitle, caption position
+    if (!identical(plot_gtable$layout[plot_gtable$layout$name %in% c('caption', 'title', 'subtitle'),], numeric(0))) {
+      plot_gtable$layout[plot_gtable$layout$name %in% c('caption', 'title', 'subtitle'),]$l = 2
+    }
 
     combined_plot <-
       ggplotify::as.ggplot(
@@ -41,6 +46,3 @@ finalise_dd_plot <-
       bg = "transparent"
     )
   }
-
-
-
