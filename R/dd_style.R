@@ -1,4 +1,5 @@
 #' @importFrom ggplot2 theme margin element_text element_blank element_line element_rect
+#' @importFrom grid unit
 #' @export
 dd_style <- function() {
   font <- "NotoSansTC-Regular"
@@ -66,7 +67,7 @@ dd_style <- function() {
     ),
 
     #plot margin
-    plot.margin = unit(c(0.5,0.5,0.5,0.5), "cm")
+    plot.margin = grid::unit(c(0.5,0.5,0.5,0.5), "cm")
   )
 }
 
