@@ -16,13 +16,13 @@ knitr::opts_chunk$set(
 
 [融數基地 DD Story Hub](https://medium.com/dd-story-hub) 的圖表風格化套件，輕易地讓我們製作出 DD 風格的 ggplot2 圖表！
 
-此套件的製作主要參考了[bbplot](https://github.com/bbc/bbplot) 套件，但我們除了主題風格外，也一併把[顏色風格](https://dd-kit.vercel.app/#/DD-chart/color)加入在套件中，並優化一部分 `bbplot` 原有的程式寫法。
+此套件的製作主要參考了[bbplot](https://github.com/bbc/bbplot) 套件，但我們除了主題風格外，也一併把[顏色風格](https://dd-kit-alpha.vercel.app/#/DD-chart/color)加入在套件中，並優化一部分 `bbplot` 原有的程式寫法。
 
 ## Why `ddplot`?
 
 - 一行 code 直接產出 **Publication Ready** 的圖表
 - 快速製作圖表，但又不失品牌風格
-- 內建適合圖表顏色的 [DD 圖表色盤](https://dd-kit.vercel.app/#/DD-chart/color)，想用哪個顏色不需要再複製貼上！
+- 內建適合圖表顏色的 [DD 圖表色盤](https://dd-kit-alpha.vercel.app/#/DD-chart/color)，想用哪個顏色不需要再複製貼上！
 
 ## Installation
 
@@ -86,7 +86,7 @@ p +
 ### `dd_cols()` & `dd_pal()`
 
 
-顏色是圖表中非常重要的視覺元素之一，所以既然要製作風格化，一定是少不了顏色，這也是 `bbplot` 套件 中沒有製作到的部分。雖然我們目前的圖表色盤並不多，但已經挑選出五種適合圖表的主要顏色，並以這五種顏色為延伸去變換搭配（[DD 圖表色盤](https://dd-kit.vercel.app/#/DD-chart/color)）。
+顏色是圖表中非常重要的視覺元素之一，所以既然要製作風格化，一定是少不了顏色，這也是 `bbplot` 套件 中沒有製作到的部分。雖然我們目前的圖表色盤並不多，但已經挑選出五種適合圖表的主要顏色，並以這五種顏色為延伸去變換搭配（[DD 圖表色盤](https://dd-kit-alpha.vercel.app/#/DD-chart/color)）。
 
 <img width="60%" src="man/figures/dd-palette.png"> 
 
